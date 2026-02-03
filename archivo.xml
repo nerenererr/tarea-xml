@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccion 
+    xmlns:manga="http://www.felipemanga.com/schemas/manga"
+    xmlns:editorial="http://www.felipemanga.com/schemas/editorial"
+    xmlns:persona="http://www.felipemanga.com/schemas/persona">
+    
+    <manga:obra id="001" tipo="josei">
+        <manga:titulo idioma="japonés">NANA -ナナ-</manga:titulo>
+        <manga:titulo idioma="español">Nana</manga:titulo>
+        
+        <editorial:publicacion>
+            <editorial:autor>
+                <persona:nombre>Ai Yazawa</persona:nombre>
+                <persona:nacionalidad>Japonesa</persona:nacionalidad>
+                <persona:genero>Femenino</persona:genero>
+            </editorial:autor>
+            <editorial:anio_inicio>2000</editorial:anio_inicio>
+            <editorial:estado tipo="hiatus">En hiatus indefinido desde 2009</editorial:estado>
+            <editorial:editorial_original>Shueisha</editorial:editorial_original>
+            <editorial:revista>Cookie</editorial:revista>
+            <editorial:motivo_pausa>Por problemas de salud de la autora</editorial:motivo_pausa>
+        </editorial:publicacion>
+        
+        <manga:clasificacion>
+            <manga:genero>Josei</manga:genero>
+            <manga:genero_secundario>Drama</manga:genero_secundario>
+            <manga:genero_secundario>Romance</manga:genero_secundario>
+            <manga:temas>
+                <manga:tema>Amistad femenina</manga:tema>
+                <manga:tema>Amor y relaciones</manga:tema>
+                <manga:tema>Música y rock</manga:tema>
+                <manga:tema>Madurez y crecimiento personal</manga:tema>
+                <manga:tema>Sueños versus realidad</manga:tema>
+                <manga:tema>Vida adulta</manga:tema>
+            </manga:temas>
+            <manga:demografia>Mujeres jóvenes adultas</manga:demografia>
+            <manga:clasificacion_edad>16+</manga:clasificacion_edad>
+        </manga:clasificacion>
+        
+        <manga:volumenes>
+            <manga:total>21</manga:total>
+            <manga:estado>Incompleto</manga:estado>
+            <manga:ultima_actualizacion>2009</manga:ultima_actualizacion>
+        </manga:volumenes>
+        
+        <manga:sinopsis>
+            La historia de dos mujeres jóvenes llamadas Nana...
+        </manga:sinopsis>      
+    </manga:obra> <manga:obra id="002" tipo="seinen">
+        <manga:titulo idioma="japonés">ベルセルク</manga:titulo>
+        </manga:obra>
+</coleccion>
