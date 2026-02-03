@@ -44,9 +44,71 @@
         </manga:volumenes>
         
         <manga:sinopsis>
-            La historia de dos mujeres jóvenes llamadas Nana...
+            La historia de dos mujeres jóvenes llamadas Nana que se conocen por 
+            casualidad en un tren hacia Tokio. Nana Komatsu busca el amor y la 
+            felicidad, mientras que Nana Osaki persigue su sueño de convertirse 
+            en una rockera famosa. Sus destinos se entrelazan mientras comparten 
+            departamento y navegan los desafíos de la vida adulta, el amor y la amistad.
         </manga:sinopsis>      
-    </manga:obra> <manga:obra id="002" tipo="seinen">
+    </manga:obra>
+        
+    <manga:obra id="002" tipo="seinen">
         <manga:titulo idioma="japonés">ベルセルク</manga:titulo>
-        </manga:obra>
+        <manga:titulo idioma="español">Berserk</manga:titulo>
+        <manga:titulo idioma="inglés">Berserk</manga:titulo>
+        
+        <editorial:publicacion>
+            <editorial:autor>
+                <persona:nombre>Kentaro Miura</persona:nombre>
+                <persona:nacionalidad>Japonesa</persona:nacionalidad>
+                <persona:fecha_nacimiento>1966-07-11</persona:fecha_nacimiento>
+                <persona:fecha_fallecimiento>2021-05-06</persona:fecha_fallecimiento>
+            </editorial:autor>
+            <editorial:continuador>
+                <persona:nombre>Kouji Mori</persona:nombre>
+                <persona:rol>Supervisor y guionista (amigo cercano de Miura)</persona:rol>
+            </editorial:continuador>
+            <editorial:estudio_continuador>Studio Gaga</editorial:estudio_continuador>
+            <editorial:anio_inicio>1989</editorial:anio_inicio>
+            <editorial:estado tipo="continuacion">Continuado póstumamente desde 2022</editorial:estado>
+            <editorial:editorial_original>Hakusensha</editorial:editorial_original>
+            <editorial:revista>Young Animal</editorial:revista>
+            <editorial:frecuencia>Mensual (irregular)</editorial:frecuencia>
+        </editorial:publicacion>
+        
+        <manga:clasificacion>
+            <manga:genero>Seinen</manga:genero>
+            <manga:genero_secundario>Fantasía oscura</manga:genero_secundario>
+            <manga:genero_secundario>Aventura épica</manga:genero_secundario>
+            <manga:genero_secundario>Horror</manga:genero_secundario>
+            <manga:temas>
+                <manga:tema>Venganza</manga:tema>
+                <manga:tema>Destino versus libre albedrío</manga:tema>
+                <manga:tema>Traición</manga:tema>
+                <manga:tema>Supervivencia</manga:tema>
+                <manga:tema>Oscuridad de la naturaleza humana</manga:tema>
+                <manga:tema>Redención</manga:tema>
+                <manga:tema>Sacrificio</manga:tema>
+            </manga:temas>
+            <manga:demografia>Hombres adultos</manga:demografia>
+            <manga:clasificacion_edad>18+</manga:clasificacion_edad>
+            <manga:advertencia>Contenido extremadamente violento y maduro</manga:advertencia>
+        </manga:clasificacion>
+        
+        <manga:volumenes>
+            <manga:total>42</manga:total>
+            <manga:estado>En publicación</manga:estado>
+            <manga:capitulos>376+</manga:capitulos>
+        </manga:volumenes>
+        
+        <manga:sinopsis>
+            La épica historia oscura de Guts, un espadachín mercenario que porta 
+            la legendaria Dragonslayer, una espada enorme. Marcado por una marca 
+            de sacrificio que atrae demonios, busca venganza contra Griffith, su 
+            antiguo mejor amigo y líder de la Banda del Halcón, quien lo traicionó 
+            en un ritual conocido como el Eclipse. Una obra maestra que explora los 
+            límites de la humanidad en un mundo brutal de fantasía medieval.
+        </manga:sinopsis>
+    </manga:obra>
+
 </coleccion>
