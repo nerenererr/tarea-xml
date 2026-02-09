@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coleccion 
+<collection 
     xmlns:manga="http://www.felipemanga.com/schemas/manga"
     xmlns:editorial="http://www.felipemanga.com/schemas/editorial"
-    xmlns:persona="http://www.felipemanga.com/schemas/persona">
+    xmlns:person="http://www.felipemanga.com/schemas/person">
     
-    <manga:obra id="001" tipo="josei">
-        <manga:titulo idioma="japonés">NANA -ナナ-</manga:titulo>
-        <manga:titulo idioma="español">Nana</manga:titulo>
+    <manga:work id="001" category="josei">
+        <manga:title language="ja">NANA -ナナ-</manga:title>
+        <manga:title language="es">Nana</manga:title>
         
-        <editorial:publicacion>
-            <editorial:autor>
-                <persona:nombre>Ai Yazawa</persona:nombre>
-                <persona:nacionalidad>Japonesa</persona:nacionalidad>
-                <persona:genero>Femenino</persona:genero>
-            </editorial:autor>
-            <editorial:anio_inicio>2000</editorial:anio_inicio>
-            <editorial:estado tipo="hiatus">En hiatus indefinido desde 2009</editorial:estado>
-            <editorial:editorial_original>Shueisha</editorial:editorial_original>
-            <editorial:revista>Cookie</editorial:revista>
-            <editorial:motivo_pausa>Por problemas de salud de la autora</editorial:motivo_pausa>
-        </editorial:publicacion>
+        <editorial:publication>
+            <editorial:author>
+                <person:name>Ai Yazawa</person:name>
+                <person:nationality>Japanese</person:nationality>
+                <person:gender>Female</person:gender>
+            </editorial:author>
+            <editorial:start_year>2000</editorial:start_year>
+            <editorial:status type="hiatus">On indefinite hiatus since 2009</editorial:status>
+            <editorial:original_publisher>Shueisha</editorial:original_publisher>
+            <editorial:magazine>Cookie</editorial:magazine>
+            <editorial:hiatus_reason>Author's health issues</editorial:hiatus_reason>
+        </editorial:publication>
         
-        <manga:clasificacion>
-            <manga:genero>Josei</manga:genero>
-            <manga:genero_secundario>Drama</manga:genero_secundario>
-            <manga:genero_secundario>Romance</manga:genero_secundario>
-            <manga:temas>
-                <manga:tema>Amistad femenina</manga:tema>
-                <manga:tema>Amor y relaciones</manga:tema>
-                <manga:tema>Música y rock</manga:tema>
-                <manga:tema>Madurez y crecimiento personal</manga:tema>
-                <manga:tema>Sueños versus realidad</manga:tema>
-                <manga:tema>Vida adulta</manga:tema>
-            </manga:temas>
-            <manga:demografia>Mujeres jóvenes adultas</manga:demografia>
-            <manga:clasificacion_edad>16+</manga:clasificacion_edad>
-        </manga:clasificacion>
+        <manga:classification>
+            <manga:primary_genre>Josei</manga:primary_genre>
+            <manga:secondary_genre>Drama</manga:secondary_genre>
+            <manga:secondary_genre>Romance</manga:secondary_genre>
+            <manga:themes>
+                <manga:theme>Female friendship</manga:theme>
+                <manga:theme>Love and relationships</manga:theme>
+                <manga:theme>Music and rock</manga:theme>
+                <manga:theme>Personal growth and maturity</manga:theme>
+                <manga:theme>Dreams versus reality</manga:theme>
+                <manga:theme>Adult life</manga:theme>
+            </manga:themes>
+            <manga:target_audience>Young adult women</manga:target_audience>
+            <manga:age_rating>16+</manga:age_rating>
+        </manga:classification>
         
-        <manga:volumenes>
-            <manga:total>21</manga:total>
-            <manga:estado>Incompleto</manga:estado>
-            <manga:ultima_actualizacion>2009</manga:ultima_actualizacion>
-        </manga:volumenes>
+        <manga:volumes>
+            <manga:total_volumes>21</manga:total_volumes>
+            <manga:publication_status>Incomplete</manga:publication_status>
+            <manga:last_update_year>2009</manga:last_update_year>
+        </manga:volumes>
         
-        <manga:sinopsis>
-            La historia de dos mujeres jóvenes llamadas Nana que se conocen por 
-            casualidad en un tren hacia Tokio. Nana Komatsu busca el amor y la 
-            felicidad, mientras que Nana Osaki persigue su sueño de convertirse 
-            en una rockera famosa. Sus destinos se entrelazan mientras comparten 
-            departamento y navegan los desafíos de la vida adulta, el amor y la amistad.
-        </manga:sinopsis>      
-    </manga:obra>
+        <manga:synopsis>
+            The story follows two young women named Nana who meet by chance on a train 
+            bound for Tokyo. Nana Komatsu seeks love and happiness, while Nana Osaki 
+            pursues her dream of becoming a famous rock musician. Their lives become 
+            intertwined as they share an apartment and face the challenges of adult 
+            life, love, and friendship.
+        </manga:synopsis>      
+    </manga:work>
         
-    <manga:obra id="002" tipo="seinen">
-        <manga:titulo idioma="japonés">ベルセルク</manga:titulo>
-        <manga:titulo idioma="español">Berserk</manga:titulo>
-        <manga:titulo idioma="inglés">Berserk</manga:titulo>
+    <manga:work id="002" category="seinen">
+        <manga:title language="ja">ベルセルク</manga:title>
+        <manga:title language="es">Berserk</manga:title>
+        <manga:title language="en">Berserk</manga:title>
         
-        <editorial:publicacion>
-            <editorial:autor>
-                <persona:nombre>Kentaro Miura</persona:nombre>
-                <persona:nacionalidad>Japonesa</persona:nacionalidad>
-                <persona:fecha_nacimiento>1966-07-11</persona:fecha_nacimiento>
-                <persona:fecha_fallecimiento>2021-05-06</persona:fecha_fallecimiento>
-            </editorial:autor>
-            <editorial:continuador>
-                <persona:nombre>Kouji Mori</persona:nombre>
-                <persona:rol>Supervisor y guionista (amigo cercano de Miura)</persona:rol>
-            </editorial:continuador>
-            <editorial:estudio_continuador>Studio Gaga</editorial:estudio_continuador>
-            <editorial:anio_inicio>1989</editorial:anio_inicio>
-            <editorial:estado tipo="continuacion">Continuado póstumamente desde 2022</editorial:estado>
-            <editorial:editorial_original>Hakusensha</editorial:editorial_original>
-            <editorial:revista>Young Animal</editorial:revista>
-            <editorial:frecuencia>Mensual (irregular)</editorial:frecuencia>
-        </editorial:publicacion>
+        <editorial:publication>
+            <editorial:author>
+                <person:name>Kentaro Miura</person:name>
+                <person:nationality>Japanese</person:nationality>
+                <person:birth_date>1966-07-11</person:birth_date>
+                <person:death_date>2021-05-06</person:death_date>
+            </editorial:author>
+            <editorial:successor>
+                <person:name>Kouji Mori</person:name>
+                <person:role>Supervisor and scriptwriter (close friend of Miura)</person:role>
+            </editorial:successor>
+            <editorial:successor_studio>Studio Gaga</editorial:successor_studio>
+            <editorial:start_year>1989</editorial:start_year>
+            <editorial:status type="continuation">Posthumously continued since 2022</editorial:status>
+            <editorial:original_publisher>Hakusensha</editorial:original_publisher>
+            <editorial:magazine>Young Animal</editorial:magazine>
+            <editorial:release_frequency>Monthly (irregular)</editorial:release_frequency>
+        </editorial:publication>
         
-        <manga:clasificacion>
-            <manga:genero>Seinen</manga:genero>
-            <manga:genero_secundario>Fantasía oscura</manga:genero_secundario>
-            <manga:genero_secundario>Aventura épica</manga:genero_secundario>
-            <manga:genero_secundario>Horror</manga:genero_secundario>
-            <manga:temas>
-                <manga:tema>Venganza</manga:tema>
-                <manga:tema>Destino versus libre albedrío</manga:tema>
-                <manga:tema>Traición</manga:tema>
-                <manga:tema>Supervivencia</manga:tema>
-                <manga:tema>Oscuridad de la naturaleza humana</manga:tema>
-                <manga:tema>Redención</manga:tema>
-                <manga:tema>Sacrificio</manga:tema>
-            </manga:temas>
-            <manga:demografia>Hombres adultos</manga:demografia>
-            <manga:clasificacion_edad>18+</manga:clasificacion_edad>
-            <manga:advertencia>Contenido extremadamente violento y maduro</manga:advertencia>
-        </manga:clasificacion>
+        <manga:classification>
+            <manga:primary_genre>Seinen</manga:primary_genre>
+            <manga:secondary_genre>Dark fantasy</manga:secondary_genre>
+            <manga:secondary_genre>Epic adventure</manga:secondary_genre>
+            <manga:secondary_genre>Horror</manga:secondary_genre>
+            <manga:themes>
+                <manga:theme>Revenge</manga:theme>
+                <manga:theme>Fate versus free will</manga:theme>
+                <manga:theme>Betrayal</manga:theme>
+                <manga:theme>Survival</manga:theme>
+                <manga:theme>Darkness of human nature</manga:theme>
+                <manga:theme>Redemption</manga:theme>
+                <manga:theme>Sacrifice</manga:theme>
+            </manga:themes>
+            <manga:target_audience>Adult men</manga:target_audience>
+            <manga:age_rating>18+</manga:age_rating>
+            <manga:content_warning>Extremely violent and mature content</manga:content_warning>
+        </manga:classification>
         
-        <manga:volumenes>
-            <manga:total>42</manga:total>
-            <manga:estado>En publicación</manga:estado>
-            <manga:capitulos>376+</manga:capitulos>
-        </manga:volumenes>
+        <manga:volumes>
+            <manga:total_volumes>42</manga:total_volumes>
+            <manga:publication_status>Ongoing</manga:publication_status>
+            <manga:total_chapters>376+</manga:total_chapters>
+        </manga:volumes>
         
-        <manga:sinopsis>
-            La épica historia oscura de Guts, un espadachín mercenario que porta 
-            la legendaria Dragonslayer, una espada enorme. Marcado por una marca 
-            de sacrificio que atrae demonios, busca venganza contra Griffith, su 
-            antiguo mejor amigo y líder de la Banda del Halcón, quien lo traicionó 
-            en un ritual conocido como el Eclipse. Una obra maestra que explora los 
-            límites de la humanidad en un mundo brutal de fantasía medieval.
-        </manga:sinopsis>
-    </manga:obra>
+        <manga:synopsis>
+            The dark epic follows Guts, a mercenary swordsman wielding the legendary 
+            Dragonslayer. Cursed with the Brand of Sacrifice, which attracts demons, 
+            he seeks revenge against Griffith, his former closest friend and leader 
+            of the Band of the Hawk, who betrayed him during the ritual known as the 
+            Eclipse. A masterpiece that explores the limits of humanity in a brutal 
+            medieval fantasy world.
+        </manga:synopsis>
+    </manga:work>
 
-</coleccion>
+</collection>
