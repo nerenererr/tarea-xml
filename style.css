@@ -14,8 +14,8 @@ body {
 
 .hero {
     background-color: #ffffff;
-    padding: 1rem 2rem 8rem;
-    padding-top: 0;
+    padding: 2rem 2rem 8rem;
+    padding-top: 1;
     text-align: center;
     border-bottom: 1px solid #000000;
 }

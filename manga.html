@@ -174,36 +174,36 @@
         const track = document.querySelector('.carousel-track');
         const prevBtn = document.querySelector('.carousel-btn.prev');
         const nextBtn = document.querySelector('.carousel-btn.next');
-        const items = document.querySelectorAll('.carousel-item');
-        
-        let currentIndex = 0;
-        const itemWidth = 200 + 30; // width + gap
-        const visibleItems = 3;
-        const maxIndex = items.length - visibleItems;
 
-        function updateCarousel() {
-            const offset = -currentIndex * itemWidth;
-            track.style.transform = `translateX(${offset}px)`;
-            
-            prevBtn.disabled = currentIndex === 0;
-            nextBtn.disabled = currentIndex === maxIndex;
+        const itemWidth = 200 + 30;
+        const originalItems = Array.from(track.children);
+        const total = originalItems.length;
+
+
+        originalItems.forEach(item => {
+            track.appendChild(item.cloneNode(true));
+            track.prepend(item.cloneNode(true));
+        });
+
+        let currentIndex = total;
+        track.style.transition = 'none';
+        track.style.transform = `translateX(${-currentIndex * itemWidth}px)`;
+
+        function goTo(index, animate = true) {
+            if (!animate) track.style.transition = 'none';
+            else track.style.transition = 'transform 0.4s ease';
+            currentIndex = index;
+            track.style.transform = `translateX(${-currentIndex * itemWidth}px)`;
         }
 
-        prevBtn.addEventListener('click', () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateCarousel();
-            }
+        track.addEventListener('transitionend', () => {
+
+            if (currentIndex >= total * 2) goTo(total, false);
+            if (currentIndex <= total - 1) goTo(total * 2 - 1, false);
         });
 
-        nextBtn.addEventListener('click', () => {
-            if (currentIndex < maxIndex) {
-                currentIndex++;
-                updateCarousel();
-            }
-        });
-
-        updateCarousel();
+        prevBtn.addEventListener('click', () => goTo(currentIndex - 1));
+        nextBtn.addEventListener('click', () => goTo(currentIndex + 1));
     </script>
 </body>
 </html>
