@@ -14,14 +14,14 @@ body {
 
 .hero {
     background-color: #ffffff;
-    padding: 2rem 2rem 8rem;
-    padding-top: 1;
+    padding: 5em 3rem 8rem;
+    padding-top: 4;
     text-align: center;
     border-bottom: 1px solid #000000;
 }
 
 .hero-title {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 400;
     letter-spacing: 0.05em;
     margin-bottom: 4rem;
@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     position: relative;
 }
 
